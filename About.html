@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Patrick Farrell</title>
+  <link rel="stylesheet" href="Styles.css">
+  <script src="JavaScript.js"></script>
+  <link rel="icon" type="image/x-icon" href="IMAGES/patrickfavicon.png">
+  <style>
+
+    body {
+      background-color: rgb(78, 0, 214);
+      color: white;
+      max-width: 100%;
+    }
+
+    ::selection {
+      background-color: white;
+      color: rgb(78, 0, 214);
+    }
+
+    .hello {
+      background-color: rgb(78, 0, 214);
+      color: white;
+    }
+
+    .hello-text {
+      color: white;
+    }
+
+    .hello-text:hover,
+    .nav-link:hover .hello-text {
+      color: rgb(145, 96, 230);
+    }
+
+    .circle {
+      background-color: white;
+    }
+
+    .nav-link:hover .circle {
+      background-color: rgb(145, 96, 230);
+    }
+
+    h1 {
+      margin-top: 0.15rem;
+      margin-bottom: 1.5rem;
+      max-width: 70%;
+    }
+
+    h1 a {
+      color: white;
+      text-decoration: none;
+    }
+
+    h1 a:hover {
+      text-decoration: underline solid white;
+      text-decoration-thickness: 0.03rem;
+      text-underline-offset: 0.25rem;
+      color: white;
+    }
+
+    h4 {
+      color: white;
+    }
+
+    h5 {
+      font-size: 0.9rem;
+      color: white;
+      margin-bottom: 0;
+    }
+
+    .bio {
+        left: 7rem;
+    }
+
+    .sub-about {
+      color: rgb(145, 96, 230);
+    }
+
+    .container {
+      width: 50vw;
+      margin-bottom: 0.5rem;
+    }
+
+    @media screen and (max-width: 800px) {
+      .bio {
+        left: 1rem;
+      }
+
+      .container {
+        width: 100%;
+        max-width: 100vw;
+      }
+
+    }
+  </style>
+</head>
+<body>
+
+  <div class="hello flex">
+    <div class="left">
+      <a href="index.html" class="nav-link">
+        <div class="circle"></div>
+        <span class="hello-text">Patrick Farrell</span>
+      </a>
+    </div>
+    <div class="right">
+      <a href="/about.html" class="nav-link">
+        <div class="circle"></div>
+        <span class="hello-text">About</span>
+      </a>
+    </div>
+  </div>
+
+  <div class="center">
+    <div class="bio">
+
+      <h5>About</h5>
+      <div class="container description">
+        <h1>
+          Patrick Farrell is a Brooklyn-based graphic designer originally from Rochester, NY. His work emphasizes
+          typography and visual research, often exploring the connection between writing and design.
+        </h1>
+      </div>
+
+      <h5>Contact</h5>
+      <div class="container description">
+        <h1>
+          <a href="mailto:patrick.farrell.m@gmail.com">Email</a><br>
+          <a href="https://www.linkedin.com/in/patrick-farrell-17b54a19b">LinkedIn</a>
+        </h1>
+      </div>
+
+      <h5>Recent Experience</h5>
+      <div class="container description">
+        <h1>
+          Condé Nast <span class="sub-about">2025–Present</span><br>
+          Yard NYC <span class="sub-about">2024–2025</span><br>
+          RISD Design Guild <span class="sub-about">2023–2024</span><br>
+          Whitney Museum of American Art <span class="sub-about">Internship, 2023</span><br>
+          Brown Political Review <span class="sub-about">2022–2024</span>
+        </h1>
+      </div>
+
+      <h5>Education</h5>
+      <div class="container description">
+        <h1>
+          Rhode Island School of Design
+          <span class="sub-about">BFA, 2020–2024</span>
+        </h1>
+      </div>
+
+      <!-- <h6>Last Updated: November 2025</h6> -->
+
+    </div>
+  </div>
+
+</body>
+</html>
