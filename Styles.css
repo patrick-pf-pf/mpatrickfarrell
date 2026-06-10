@@ -14,7 +14,7 @@
     border-radius: 7px;
     margin-top: 3.1rem;
     margin-bottom: 0.2rem;
-    cursor: url('./next_cursor_02.png') 16 16, auto;
+    cursor: url('IMAGES/Cursor.png') 16 16, auto;
     /* margin: auto;
     display: block;
     margin-left: auto;
@@ -52,7 +52,7 @@ body {
     margin-left: 6rem;
     margin-right: 6rem;
     letter-spacing: -0.009rem;
-    /* background-color: rgb(246, 243, 248) */
+    background-color: rgb(243, 243, 243)
 }
 
 /* .center {
@@ -181,7 +181,7 @@ h6 {
     left: 0;
     right: 0;
     color: gray;
-    background-color: white;
+   background-color: rgb(243, 243, 243);
     /* padding-left: 1.25rem;
     padding-right: 1.25rem; */
     padding-top: 0.5rem;
